@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,34 +18,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- IIS (Internet Information Services)
+- PHP Manager
+- MySQL
+- osTicket v1.15.8
+- HeidiSQL
 
 <h2>Installation Steps</h2>
+The first step I did was setup Internet Information Services.
+<img width="1710" alt="IIS setup" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/5fc4af7a-c50e-4896-8bbc-3e530d9f944c">
+</p>
+<p>
+Here I installed a prerequisite important for setting up osTicket.
+<img width="1424" alt="MySQL Installation" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/38e3cfb7-8948-4204-a42c-073e559e4153">
+</p>
+<p>
+I enabled some extensions that help osTicket run better.
+<img width="1710" alt="PHP extensions for osTicket" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/063ce1b6-1f72-435e-a0b6-9ea0a5b46fdd">
+</p>
+<p>
+I setup a database through HeidiSQL that helps organize osTicket.
+<img width="1141" alt="HeidiSQL-osTicket-database " src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/07321c81-280f-475a-9a37-692cbcc3bec9">
+</p>
+<p>
+By the end I setup osTicket successfully and logged in as an administrator.
+<img width="1710" alt="osTicket successful installation" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/4ac56e30-6dca-490b-b75a-1f9be131043a">
+<img width="1710" alt="osTicket login" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/6c011305-2984-49fd-9291-1a87dd74cae6">
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
