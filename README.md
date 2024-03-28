@@ -29,15 +29,15 @@ The first step I did was setup Internet Information Services.
 <img width="1710" alt="IIS setup" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/5fc4af7a-c50e-4896-8bbc-3e530d9f944c">
 </p>
 <p>
-Here I installed a prerequisite important for setting up osTicket.
+Here I installed the prerequisite MySQL server that is important for setting up osTicket.
 <img width="1424" alt="MySQL Installation" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/38e3cfb7-8948-4204-a42c-073e559e4153">
 </p>
 <p>
-I enabled some extensions that help osTicket run better.
+I enabled PHP IMAP and Intl extensions that were not initially there to help osTicket run better.
 <img width="1710" alt="PHP extensions for osTicket" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/063ce1b6-1f72-435e-a0b6-9ea0a5b46fdd">
 </p>
 <p>
-I setup a database through HeidiSQL that helps organize osTicket.
+I setup a database client through HeidiSQL that connects to the MySQL database osTicket.
 <img width="1141" alt="HeidiSQL-osTicket-database " src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/07321c81-280f-475a-9a37-692cbcc3bec9">
 </p>
 <p>
