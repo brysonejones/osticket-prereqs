@@ -25,6 +25,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - HeidiSQL
 
 <h2>Installation Steps</h2>
+I created a VM in Azure for osTicket.
+<img width="1710" alt="OsTicket Azure resources" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/24dfa2cc-82b6-4ee0-9a11-7ad5b710a3ca">
+</p>
+<p>
+Connected to the VM with Remote Desktop.
+<img width="1710" alt="OsTicket RDP connection" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/59ed0c5f-53a6-478b-8603-5a49011fef0a">
+</p>
+<p>
 The first step I did was setup Internet Information Services.
 <img width="1710" alt="IIS setup" src="https://github.com/brysonejones/osticket-prereqs/assets/163891519/5fc4af7a-c50e-4896-8bbc-3e530d9f944c">
 </p>
